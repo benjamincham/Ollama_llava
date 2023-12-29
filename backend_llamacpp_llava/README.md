@@ -30,15 +30,15 @@ For information on parameters to start llama_cpp.server, checkout [llama-cpp-pyt
 python -m llama_cpp.server --model ./ggml_llava-v1.5-13b/ggml-model-q4_k.gguf --clip_model_path ./ggml_llava-v1.5-13b/mmproj-model-f16.gguf --chat_format llava-1-5 --n_gpu_layers 10 --n_threads 16
 ```
 
-### 4. Examples to performce inference using llama-cpp-server
+### 5. Examples to performce inference using llama-cpp-server
 
-###  &emsp;4a: Inference using image file
+###  &emsp;5a: Inference using image file
 Refer to [code](example/inference_local_file.py), change the image_path to point to your image
 ```
 python ./example/inference_local_file.py
 ```
 
-###  &emsp;4b: Inference using image url
+###  &emsp;5b: Inference using image url
 Refer to [code](example/inference_remote_url.py)
 ```
 python ./example/inference_remote_url.py
